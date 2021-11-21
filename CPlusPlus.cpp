@@ -9,7 +9,7 @@
 // }
 
 //                                                       Data Types in C++
-//                                               =====================
+//                                                     =====================
 
 // int main()
 // {
@@ -35,7 +35,7 @@
 // cout<<"String is \" " << str << " \" and size of String is \" " << sizeof(str) << " \"." << endl;
 
 //                                                   Operator in C++
-//                                              =================
+//                                                  =================
 
 // 1. Arithmatic Operator:-
 
@@ -84,7 +84,7 @@
 //    !             Logical not	     Reverse the result, returns false if the result is true	!(x < 5 && x < 10)
 
 //                                                        String in C++
-//                                                  ===============
+//                                                       ===============
 
 // String Concatenation:-
 
@@ -114,7 +114,7 @@
 // cout << "String is  :  " << str;
 
 //                                                  Omitting Namespace
-//                                              ====================
+//                                                 ====================
 
 // #include <iostream>
 // #include <string>
@@ -140,7 +140,7 @@
 // cout << pow(10,5)<<endl;
 
 //                                                      Conditionals in C++
-//                                               =====================
+//                                                     =====================
 
 // If statement:-
 
@@ -214,7 +214,7 @@
 // }
 
 //                                                     Loops in C++
-//                                                 ==============
+//                                                    ==============
 
 // While Loop:-
 
@@ -278,7 +278,7 @@
 // }
 
 //                                                     Array in C++
-//                                                ==============
+//                                                    ==============
 
 // Deaclaration of an array:-
 // int ar[5];
@@ -300,7 +300,7 @@
 // }
 
 //                                                     Reference in C++
-//                                                 ==================
+//                                                    ==================
 
 // string str = "Welcome";
 // string &strR = str;
@@ -314,7 +314,7 @@
 // cout << "Reference is : " +strR << endl << "\n";
 
 //                                                        Pointer in C++
-//                                                  ================
+//                                                       ================
 
 // string str = "This is a String";
 // string *p = &str;
@@ -333,7 +333,7 @@
 // }
 
 //                                                     Function in C++
-//                                                =================
+//                                                    =================
 
 // Declaration of a function:-
 // void myfun();
@@ -417,7 +417,7 @@
 // }
 
 //                                                       OOPs in c++
-//                                                  ==============
+//                                                     ==============
 
 // OOP stands for Object-Oriented Programming.
 
@@ -494,7 +494,7 @@
 // }
 
 //                                                      C++ Class Methods
-//                                                =====================
+//                                                    =====================
 
 // Methods are functions that belongs to the class.
 
@@ -564,7 +564,7 @@
 // }
 
 //                                                         Constructors in C++
-//                                                =======================
+//                                                        =======================
 
 // A constructor in C++ is a special method that is automatically called when an object of a class is created.
 // To create a constructor,use the same name as the class, followed by parentheses().
@@ -641,7 +641,7 @@
 // }
 
 //                                                         Access Specifiers in C++
-//                                             ============================
+//                                                       ============================
 
 // You are quite familiar with the public keyword that appears in all of our class examples.
 // In C++, there are three access specifiers :
@@ -681,7 +681,7 @@
 // Note : By default, all members of a class are private if you don't specify an access specifier.
 
 //                                                  Encapsulation in C++
-//                                           =======================
+//                                                 =======================
 
 // The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users.
 // To achieve this, you must declare class variables / attributes as private(cannot be accessed from
@@ -727,7 +727,7 @@
 // }
 
 //                                                  Inheritance in C++
-//                                           ====================
+//                                                 ====================
 
 // In C++, it is possible to inherit attributes and methods from one class to another.We group the "inheritance concept" into two categories :
 
@@ -760,7 +760,7 @@
 // }
 
 //                                                    Multilevel Inheritance
-//                                            ========================
+//                                                   ========================
 
 // A class can also be derived from one class, which is already derived from another class.
 
@@ -804,7 +804,7 @@
 // }
 
 //                                                  Multiple Inheritance
-//                                           ======================
+//                                                 ======================
 
 // A class can also be derived from more than one base class, using a comma - separated list.
 
@@ -848,7 +848,7 @@
 // }
 
 //                                                Inhertance Protected Access Specifier
-//                                      =======================================
+//                                               =======================================
 
 // Protected is similar to private, but it can also be accessed in the inherited class.
 
@@ -888,7 +888,7 @@
 // }
 
 //                                                 Polymorphism in C++
-//                                            =====================
+//                                                =====================
 
 // Polymorphism means "many forms", and it occurs when we have many classes that are related
 // to each other by inheritance.
@@ -938,7 +938,7 @@
 // }
 
 //                                                      Files in C++
-//                                                ==============
+//                                                     ==============
 
 // The fstream library allows us to work with files.
 // To use the fstream library, include both the standard <iostream> and the <fstream> header file
